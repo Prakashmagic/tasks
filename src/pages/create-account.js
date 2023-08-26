@@ -33,7 +33,7 @@ const CreateAccount = () => {
     
     return(
         <div>
-            <h1>create your account</h1>
+            <h1>create your account</h1> 
             <div className="space">
                 <label className="register-label">enter your email id</label>
                 <input type="text" placeholder="type your mail" onChange={handleInput} className= "register-input" id= "email" ></input>
@@ -42,6 +42,7 @@ const CreateAccount = () => {
                 <label className="register-label">enter your password</label>
                 <input type="password" placeholder="type your password" onChange={handleInput} className="register-input" id="password" ></input>
             <div>
+           
                 <button onClick={() => submitaccount()}>submit button</button>
             </div>
             </div>
